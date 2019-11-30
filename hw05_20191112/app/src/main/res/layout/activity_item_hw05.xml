@@ -6,19 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Page2Activity">
+    tools:context=".item_hw05">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="I am Page2"
-        android:textSize="36sp"
-        android:gravity="center"
-
-    />
+        android:textSize="24sp"
+        android:textStyle="bold"/>
 
 
-
+    <TextView
+        android:id="@+id/item_mesg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
 
 
 

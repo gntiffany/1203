@@ -9,17 +9,11 @@
     tools:context=".Page2Activity">
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="I am Page2"
-        android:textSize="36sp"
         android:gravity="center"
-
-    />
-
-
-
-
-
+        android:textSize="36sp"/>
 
 </LinearLayout>
